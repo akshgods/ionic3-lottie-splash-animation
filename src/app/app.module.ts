@@ -3,23 +3,27 @@ import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
-
+import { LottieAnimationViewModule } from 'ng-lottie';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import { SplashPage } from '../pages/splash/splash';
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    SplashPage
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    LottieAnimationViewModule,
+    IonicModule.forRoot(MyApp),
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    SplashPage
   ],
   providers: [
     StatusBar,

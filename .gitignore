@@ -21,8 +21,10 @@ npm-debug.log*
 coverage/
 dist/
 node_modules/
+platforms/
 tmp/
 temp/
+typings/
 platforms/
 plugins/
 plugins/android.json
