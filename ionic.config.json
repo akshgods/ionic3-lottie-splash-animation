@@ -1,0 +1,7 @@
+{
+  "name": "ionic-animated-splashscreen",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
